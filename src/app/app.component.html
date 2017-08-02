@@ -1,0 +1,29 @@
+<p>
+  The app-module is just a <b>wrapper</b> to <b>test</b> and <b>develop</b> your library against!
+  What you will actually export to npm are <b>only</b> the contents in the
+  <code>wangular-lib</code> directory! So it doesn't really matter what you write here. Lalala. Just a
+  testing ground. I've colored the background of the testing ground so it's more obvious what belongs to it.
+</p>
+
+<p>
+  Now let's use a sort pipe of our library module here for testing to show a sorted table by Name:
+</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="col-xs-4">Name</th><th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of testArray | sort: 'name'"> <!-- see sort pipe here -->
+            <td>{{ s.name }}</td>
+            <td>{{ s.age }}</td>
+        </tr>
+    </tbody>
+</table>
+<p>
+  Great! It works!
+</p>
+
