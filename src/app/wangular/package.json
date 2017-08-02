@@ -1,0 +1,10 @@
+{
+  "name": "wangular",
+  "version": "0.0.2",
+  "description": "A wangular library for pipes and directives",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WiM - USGS",
+  "license": "MIT"
+}
