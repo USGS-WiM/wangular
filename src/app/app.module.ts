@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { WangularModule } from "app/wangular-lib";
+import { WangularModule } from "app/wangular";
 
 @NgModule({
   declarations: [

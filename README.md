@@ -12,5 +12,3 @@ This wangular library will include pipes and directives that can be used in your
 
 ```
 
-
-

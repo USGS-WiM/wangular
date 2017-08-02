@@ -110,13 +110,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "wangular-lib",
+      "wangular",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "wangular-lib",
+      "wangular",
       "kebab-case"
     ],
     "use-input-property-decorator": true,

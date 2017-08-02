@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ArraySortPipe } from "app/wangular-lib/pipes/sort.pipe";
+import { ArraySortPipe } from "./pipes/sort.pipe";
 
 @NgModule({
   imports: [ CommonModule ],
