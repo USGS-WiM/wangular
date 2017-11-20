@@ -1,14 +1,19 @@
-# Angular Library Example
+# Angular Library for custom Pipes and Directives
 
-This is an Angular library from **mid 2017** for currently **Angular 4** (works just as well with Angular 2).
+To install the wangular library add `"wangular": "git+https://github.com/USGS-WiM/wangular.git#master"` to your package.json file.
+Then run `npm install`. This will add the needed files to your node_modules folder.
 
-# Tutorial
+In the **App.module** or **shared.module** file (depending on your setup) add:
 
-This is based from this tutorial:
-http://how-to-write-a-typescript-library.com/angular2
+```import { WangularModule } from 'wangular/src/app/wangular';```
+and add 
 
-This wangular library will include pipes and directives that can be used in your angularX project.
+`WangularModule` to the `@NgModule` `imports: []` and `exports: []`
 
 
-```
+**Pipes Included**
+* Sort Pipe
+  * pipe to sort a given array by the property field provided (args)
 
+* Filter By ID pipe
+  * pipe that uses a passed-in property field name and an array of objects and returns the correct property value based on the key.
