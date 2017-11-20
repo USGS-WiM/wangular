@@ -13,3 +13,6 @@ and add
 **Pipes Included**
 * Sort Pipe
   * pipe to sort a given array by the property field provided (args)
+
+* Filter By ID pipe
+  * pipe that uses a passed-in property field name and an array of objects and returns the correct property value based on the key.

@@ -6,9 +6,7 @@ import { AppComponent } from './app.component';
 import { WangularModule } from "app/wangular";
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [ AppComponent ],
   imports: [  BrowserModule, WangularModule ],
   providers: [],
   bootstrap: [AppComponent]
